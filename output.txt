@@ -1,0 +1,158 @@
+2//*********************** SYSCONFIG START *******************//
+Time Start 1
+Main Memory 200
+Serial Devices 12
+Time Quantum 4
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  3
+Current Time 1
+Waiting for: 2 Seconds
+Current Time 3
+Job Number  1
+Required Memory  20
+Priority  1
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 180
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  4
+Current Time 3
+Waiting for: 1 Seconds
+Current Time 4
+Job Number  2
+Required Memory  30
+Priority  2
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 150
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  9
+Current Time 4
+Waiting for: 5 Seconds
+Current Time 9
+Job Number  3
+Required Memory  10
+Priority  1
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 140
+//*********************** REQUEST DEVICE START *******************//
+Time Requested 10
+
+Current Time 9
+Job Requested 1
+Device Number Requested 5
+
+Wait until Ready
+
+//*********************** RUN **********************************//
+Serial Devices 5 
+Devices Requested 5
+5 Devices are now running
+Current Time 10
+Run for 10 Seconds
+Current Time 20
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  13
+Current Time 20
+Waiting for: -7 Seconds
+Current Time 20
+Job Number  4
+Required Memory  20
+Priority  2
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 120
+//*********************** REQUEST DEVICE START *******************//
+Time Requested 14
+
+Current Time 20
+Job Requested 3
+Device Number Requested 2
+
+Wait until Ready
+
+//*********************** RUN **********************************//
+Serial Devices 2 
+Devices Requested 2
+2 Devices are now running
+Current Time 20
+Run for 12 Seconds
+Current Time 32
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  24
+Current Time 32
+Waiting for: -8 Seconds
+Current Time 32
+Job Number  5
+Required Memory  20
+Priority  1
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 100
+//*********************** JOB ARRIVAL START *******************//
+Arrival Time  25
+Current Time 32
+Waiting for: -7 Seconds
+Current Time 32
+Job Number  6
+Required Memory  20
+Priority  2
+Possible? Yes
+Run
+In Ready Queue
+Memory Left 80
+//*********************** REQUEST DEVICE START *******************//
+Time Requested 30
+
+Current Time 32
+Job Requested 4
+Device Number Requested 4
+
+Wait until Ready
+
+//*********************** RUN **********************************//
+Serial Devices 8 
+Devices Requested 4
+4 Devices are now running
+Current Time 32
+Run for 4 Seconds
+Current Time 36
+//*********************** REQUEST DEVICE START *******************//
+Time Requested 31
+
+Current Time 36
+Job Requested 5
+Device Number Requested 7
+
+Wait until Ready
+
+//*********************** RUN **********************************//
+Serial Devices 4 
+Devices Requested 7
+7 Devices are now running
+Current Time 36
+Run for 11 Seconds
+Current Time 47
+//*********************** RELEASE DEVICE START *******************//
+Device Number 2
+Release Time 32
+Current Time 47
+
+ Current Memory 80
+Job Number to Release 3
+
+Main Memory is now 100
+//*********************** DISPLAY START *******************//
+Time Display 9999
+In readyQueue
+In waitQueue
+In Hold 1
+In Hold 2
+In Released
+End Time is: 47
